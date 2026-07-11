@@ -1,9 +1,0 @@
-# Slack #people-ops  (exported 2026-03-31)
-
-[2025-11-04 14:07] @iromano: Welcome to our newest team members this quarter! 👋
-[2025-12-07 15:20] @nfischer: Manager 1:1 templates refreshed.
-[2026-01-12 09:00] @iromano: Onboarding buddy sign-ups open for Q1 new hires 🙌
-[2026-02-20 09:00] @nfischer: PIP policy v2 refresher for managers attached in HR/policies.
-[2026-03-06 10:05] @cmendoza: @ncfischer we need 1 added shift lead at DFW to support Nimbus go-live in April. Can we pull from bench or do we hire?
-    ↳ [2026-03-06 10:22] @nfischer: Let me check the capacity planner and current roster. Isabella will pull availability.
-    ↳ [2026-03-06 10:40] @iromano: On it — cross-checking the current roster (not the older snapshot) for who's actually available.
