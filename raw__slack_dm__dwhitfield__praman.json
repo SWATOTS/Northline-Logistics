@@ -1,0 +1,35 @@
+{
+  "type": "dm",
+  "participants": [
+    "dwhitfield",
+    "praman"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-11-04 15:19",
+      "user": "praman",
+      "text": "can you approve that when you get a chance?"
+    },
+    {
+      "ts": "2025-11-08 17:01",
+      "user": "dwhitfield",
+      "text": "how was the weekend?"
+    },
+    {
+      "ts": "2025-11-17 17:12",
+      "user": "dwhitfield",
+      "text": "sorry to bug you happy to sync if useful"
+    },
+    {
+      "ts": "2025-11-20 14:28",
+      "user": "dwhitfield",
+      "text": "happy to sync if useful"
+    },
+    {
+      "ts": "2025-11-27 16:04",
+      "user": "praman",
+      "text": "can you cover the executive standup tomorrow?"
+    }
+  ]
+}

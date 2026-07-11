@@ -1,0 +1,35 @@
+{
+  "type": "dm",
+  "participants": [
+    "gokafor",
+    "therrera"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-10-10 15:02",
+      "user": "gokafor",
+      "text": "ping when you can coffee run \u2014 want anything? \u2615"
+    },
+    {
+      "ts": "2025-10-19 09:36",
+      "user": "therrera",
+      "text": "happy to sync if useful"
+    },
+    {
+      "ts": "2025-11-27 10:35",
+      "user": "gokafor",
+      "text": "birthday cake in the kitchen \ud83c\udf82"
+    },
+    {
+      "ts": "2025-12-17 09:56",
+      "user": "therrera",
+      "text": "thanks for the help earlier \ud83d\ude4f"
+    },
+    {
+      "ts": "2026-01-14 13:12",
+      "user": "gokafor",
+      "text": "happy to sync if useful"
+    }
+  ]
+}

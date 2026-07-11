@@ -1,0 +1,19 @@
+{
+  "channel": "#rno-floor",
+  "exported": "2026-03-31",
+  "members": [
+    "ogrant"
+  ],
+  "messages": [
+    {
+      "ts": "2026-01-15 20:10",
+      "user": "ogrant",
+      "text": "Late shift running smoother. Still under the other hubs on units/hour but trending up week over week."
+    },
+    {
+      "ts": "2026-01-30 20:05",
+      "user": "ogrant",
+      "text": "Reno night shift \u2014 plow came through, lot's clear."
+    }
+  ]
+}
