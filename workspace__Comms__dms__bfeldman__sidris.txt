@@ -1,0 +1,4 @@
+# DM: @bfeldman ↔ @sidris
+
+[2025-10-23 10:09] @sidris: can you cover the sales standup tomorrow?
+[2025-10-25 14:09] @bfeldman: did the numbers look right to you?

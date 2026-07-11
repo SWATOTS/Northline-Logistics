@@ -1,0 +1,30 @@
+{
+  "type": "dm",
+  "participants": [
+    "smartinez",
+    "nosei"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-10-12 15:55",
+      "user": "nosei",
+      "text": "are you at the offsite?"
+    },
+    {
+      "ts": "2025-10-19 11:00",
+      "user": "smartinez",
+      "text": "are you at the offsite?"
+    },
+    {
+      "ts": "2025-10-27 15:49",
+      "user": "smartinez",
+      "text": "can you approve that when you get a chance?"
+    },
+    {
+      "ts": "2025-11-06 14:10",
+      "user": "nosei",
+      "text": "did the numbers look right to you?"
+    }
+  ]
+}

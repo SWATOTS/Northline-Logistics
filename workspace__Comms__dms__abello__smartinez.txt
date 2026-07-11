@@ -1,0 +1,4 @@
+# DM: @smartinez ↔ @abello
+
+[2026-03-23 13:50] @smartinez: Helix Q1 OTD 95.1% vs 98% SLA. Can you size the credit?
+[2026-03-23 15:05] @abello: On it — I'll footnote the calc in the credit memo. 2.9 pts under, per the SOW that's the credit basis.

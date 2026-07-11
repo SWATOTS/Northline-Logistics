@@ -1,0 +1,35 @@
+{
+  "type": "dm",
+  "participants": [
+    "abello",
+    "lpatterson"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-11-10 10:49",
+      "user": "abello",
+      "text": "coffee run \u2014 want anything? \u2615"
+    },
+    {
+      "ts": "2025-11-11 16:07",
+      "user": "lpatterson",
+      "text": "who's on shift Friday?"
+    },
+    {
+      "ts": "2025-11-13 14:16",
+      "user": "lpatterson",
+      "text": "did you catch the game? \ud83c\udfc0"
+    },
+    {
+      "ts": "2025-11-18 08:08",
+      "user": "abello",
+      "text": "do you have the latest on the Nimbus account?"
+    },
+    {
+      "ts": "2025-12-03 16:54",
+      "user": "abello",
+      "text": "birthday cake in the kitchen \ud83c\udf82"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "dm",
+  "participants": [
+    "smartinez",
+    "cmendoza"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-11-02 08:09",
+      "user": "smartinez",
+      "text": "got a sec? how was the weekend?"
+    },
+    {
+      "ts": "2025-12-16 11:46",
+      "user": "cmendoza",
+      "text": "birthday cake in the kitchen \ud83c\udf82"
+    }
+  ]
+}

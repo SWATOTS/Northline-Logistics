@@ -1,0 +1,30 @@
+{
+  "type": "dm",
+  "participants": [
+    "nosei",
+    "ezhang"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-11-02 09:27",
+      "user": "ezhang",
+      "text": "coffee run \u2014 want anything? \u2615"
+    },
+    {
+      "ts": "2025-11-03 16:27",
+      "user": "nosei",
+      "text": "thanks for the help earlier \ud83d\ude4f"
+    },
+    {
+      "ts": "2025-11-08 17:03",
+      "user": "ezhang",
+      "text": "coffee run \u2014 want anything? \u2615"
+    },
+    {
+      "ts": "2025-11-21 08:04",
+      "user": "nosei",
+      "text": "sorry to bug you who's on shift Friday?"
+    }
+  ]
+}
