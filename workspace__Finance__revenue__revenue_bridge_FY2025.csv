@@ -1,0 +1,14 @@
+=== Sheet: Revenue Bridge ===
+Component,USD
+FY2024 revenue,14760000
++ New business,4050000
++ Expansion,750000
+- Churn,-1140000
+FY2025 revenue,18420000
+
+=== Sheet: Churn detail ===
+Client,Last MRR,Annualized churn impact,Reason
+Sterling Grocery Group (CL-004),64000,-768000,Churned to competitor on price
+Meridian Apparel (CL-008),71000,-372000,Disputed exit (partial-year)
+Total churn line,,-1140000,Ties to revenue bridge
+

@@ -1,0 +1,15 @@
+=== Sheet: OTD by Week ===
+Client ID,Client,Target %,W01,W02,W03,W04,W05,W06,W07,W08,W09,W10,W11,W12,W13,Q1 Avg %,Weeks Missed
+CL-001,Aurora Retail Co.,96,98.5,96.5,94.8,96.4,96.1,95.5,96.9,98.3,95.4,97.2,97.7,95.2,95.3,96.4,5
+CL-002,Helix Foods Inc.,98,98.2,98.5,98.1,98.3,98,98.4,86,79.2,88.4,98.2,98.6,98.1,98.3,95.1,3
+CL-003,Cobalt Industrial Supply,93,93.1,94,93.3,93.5,95.5,95.4,93.5,94.5,96.5,94,93.9,93.2,94,94.2,0
+CL-007,Pinnacle Auto Parts,94,95.4,95.5,95.2,95.2,94.5,96.4,95.9,95.7,97.4,97,95.9,94.5,96.5,95.8,0
+CL-009,Quartz Home Goods,95,94.3,92.4,94.3,94.2,93.5,93.9,93.2,92.4,91.3,91.3,93,92.1,94.1,93.1,13
+CL-010,BlueRiver Beverages,94,92.1,92.2,94.2,93.4,91.5,92.5,94.6,93.5,91.5,91.1,91.2,93.5,93.7,92.7,11
+
+=== Sheet: Notes ===
+Author,Sofia Martinez (D02)
+Generated,2026-04-02
+Source,FreightDesk TMS export
+Note,Helix Foods (CL-002) below 98% contractual SLA. 3 weeks missed; worst = W08 (79.2%).
+

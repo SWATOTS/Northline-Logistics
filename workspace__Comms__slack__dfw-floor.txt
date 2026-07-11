@@ -1,0 +1,5 @@
+# Slack #dfw-floor  (exported 2026-03-31)
+
+[2026-03-03 06:55] @tbrooks: Dallas — new pick path signage is up. Follow the blue arrows.
+[2026-03-05 11:30] @tbrooks: Ran the Nimbus capacity check. We're tight — current throughput leaves ~42 u/hr headroom and Nimbus adds ~55. We need one more shift lead to hold the line.
+    ↳ [2026-03-05 11:40] @cmendoza: Agreed. Raising the headcount need with People Ops.

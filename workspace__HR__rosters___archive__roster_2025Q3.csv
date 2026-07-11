@@ -1,0 +1,35 @@
+=== Sheet: Roster ===
+Emp ID,Name,Dept,Title,Manager,Hired,Status
+E01,Dana Whitfield,Executive,Co-Founder & CEO,—,2018-01-15,active
+E02,Priya Raman,Executive,Co-Founder & COO,Dana Whitfield,2018-01-15,active
+S01,Grace Okafor,Sales,"VP, Sales & Business Development",Dana Whitfield,2018-06-01,active
+S02,Tomás Herrera,Sales,Sales Lead,Grace Okafor,2020-03-02,active
+S03,Bianca Feldman,Sales,Account Executive,Tomás Herrera,2021-09-13,active
+S04,Derek Nwosu,Sales,Account Executive,Tomás Herrera,2022-02-14,active
+S05,Alexis Chen,Sales,Sales Development Rep,Tomás Herrera,2023-07-10,active
+S06,Jordan Blake,Sales,Sales Intern,Tomás Herrera,2025-06-02,active
+D01,Rachel Kim,Client Delivery,Director of Client Delivery,Priya Raman,2019-01-07,active
+D02,Sofia Martinez,Client Delivery,Delivery Program Manager,Rachel Kim,2021-04-19,active
+D03,Nathan Osei,Client Delivery,Client Delivery Associate,Sofia Martinez,2022-08-01,active
+D04,Emily Zhang,Client Delivery,Client Delivery Associate,Sofia Martinez,2023-11-06,active
+D05,Victor Alvarez,Client Delivery,Delivery Coordinator,Sofia Martinez,2020-10-12,active
+F01,Henry Caldwell,Finance,Finance Director / Controller,Dana Whitfield,2019-03-11,active
+F02,Aisha Bello,Finance,FP&A Analyst,Henry Caldwell,2022-05-16,active
+F03,Liam Patterson,Finance,Staff Accountant,Henry Caldwell,2021-06-21,active
+F04,Mei Tanaka,Finance,AP/AR Clerk,Henry Caldwell,2023-02-27,active
+W01,Carlos Mendoza,Warehouse Ops,Director of Warehouse Operations,Priya Raman,2019-05-20,active
+W02,Dominic Ferraro,Warehouse Ops,Warehouse Operations Lead,Carlos Mendoza,2020-07-06,active
+W03,Tanya Brooks,Warehouse Ops,Warehouse Operations Lead (Dallas),Carlos Mendoza,2021-11-15,active
+W04,Samuel Idris,Warehouse Ops,Inventory Analyst,Carlos Mendoza,2022-09-19,active
+W05,Olivia Grant,Warehouse Ops,Dock Supervisor (Reno),Carlos Mendoza,2023-05-08,active
+W06,Reggie Thompson,Warehouse Ops,Warehouse Associate,Dominic Ferraro,2024-01-22,active
+W07,Kevin Doyle,Warehouse Ops,Warehouse Associate,Tanya Brooks,2022-03-30,active
+H01,Naomi Fischer,People Ops,People Ops Manager,Priya Raman,2020-02-10,active
+H02,Isabella Romano,People Ops,People Ops Coordinator,Naomi Fischer,2023-08-14,active
+I01,Raj Malhotra,IT,IT & Systems Administrator,Priya Raman,2021-01-11,active
+I02,Chloe Weber,IT,Ops Support Analyst,Raj Malhotra,2024-06-03,active
+
+=== Sheet: Meta ===
+As of,2025-09-30
+Note,Quarterly roster export from PeopleHub HRIS.
+

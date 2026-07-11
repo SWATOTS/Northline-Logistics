@@ -1,0 +1,61 @@
+Invoice,Client ID,Client,Amount,Days Outstanding,Bucket,Status
+INV-5000,CL-001,Aurora Retail Co.,122207,22,Current,open
+INV-5001,CL-001,Aurora Retail Co.,90484,22,Current,open
+INV-5002,CL-002,Helix Foods Inc.,91482,33,31-60,open
+INV-5003,CL-002,Helix Foods Inc.,73207,58,31-60,open
+INV-5004,CL-002,Helix Foods Inc.,86818,58,31-60,open
+INV-5005,CL-003,Cobalt Industrial Supply,49944,8,Current,open
+INV-5006,CL-005,Nimbus Electronics,95176,8,Current,open
+INV-5007,CL-007,Pinnacle Auto Parts,75443,33,31-60,open
+INV-5008,CL-009,Quartz Home Goods,30174,15,Current,open
+INV-5009,CL-009,Quartz Home Goods,52388,33,31-60,open
+INV-5010,CL-010,BlueRiver Beverages,68806,15,Current,open
+INV-5011,CL-011,Summit Retail Group,27345,22,Current,open
+INV-5012,CL-012,Crestview Imports,28885,22,Current,open
+INV-5013,CL-012,Crestview Imports,19779,8,Current,open
+INV-5014,CL-012,Crestview Imports,24700,15,Current,open
+INV-5015,CL-013,Harbor Imports,25638,58,31-60,open
+INV-5016,CL-014,Ironwood Supply Co.,17512,22,Current,open
+INV-5017,CL-014,Ironwood Supply Co.,16059,22,Current,open
+INV-5018,CL-014,Ironwood Supply Co.,11869,8,Current,open
+INV-5019,CL-015,Silverpeak Retail Group,39069,47,31-60,open
+INV-5020,CL-016,Redwood Imports,34025,15,Current,open
+INV-5021,CL-016,Redwood Imports,25588,8,Current,open
+INV-5022,CL-017,Cascade Retail Group,36072,15,Current,open
+INV-5023,CL-017,Cascade Retail Group,34630,15,Current,open
+INV-5024,CL-018,Granite Manufacturing,21341,22,Current,open
+INV-5025,CL-018,Granite Manufacturing,41479,58,31-60,open
+INV-5026,CL-019,Falcon Retail Group,28040,47,31-60,open
+INV-5027,CL-021,Copper Manufacturing,14338,33,31-60,open
+INV-5028,CL-021,Copper Manufacturing,26221,8,Current,open
+INV-5029,CL-021,Copper Manufacturing,12164,33,31-60,open
+INV-5030,CL-022,Lakeshore Wholesale,64656,33,31-60,open
+INV-5031,CL-022,Lakeshore Wholesale,63232,58,31-60,open
+INV-5032,CL-022,Lakeshore Wholesale,63760,8,Current,open
+INV-5033,CL-023,Vantage Brands,17444,58,31-60,open
+INV-5034,CL-023,Vantage Brands,15765,8,Current,open
+INV-5035,CL-023,Vantage Brands,16326,15,Current,open
+INV-5036,CL-024,Willow Manufacturing,35889,33,31-60,open
+INV-5037,CL-024,Willow Manufacturing,33694,8,Current,open
+INV-5038,CL-025,Northgate Imports,40000,47,31-60,open
+INV-5039,CL-025,Northgate Imports,22037,58,31-60,open
+INV-5040,CL-026,Brightwater Supply Co.,16411,8,Current,open
+INV-5041,CL-027,Cedar Brands,13238,22,Current,open
+INV-5042,CL-028,Onyx Logistics Partners,31505,8,Current,open
+INV-5043,CL-029,Maple Supply Co.,34172,15,Current,open
+INV-5044,CL-030,Kestrel Logistics Partners,19166,8,Current,open
+INV-5045,CL-030,Kestrel Logistics Partners,26089,58,31-60,open
+INV-5046,CL-030,Kestrel Logistics Partners,17390,33,31-60,open
+INV-5047,CL-031,Sable Supply Co.,35068,47,31-60,open
+INV-5048,CL-032,Juniper Trading,53054,8,Current,open
+INV-5049,CL-032,Juniper Trading,26756,15,Current,open
+INV-5050,CL-033,Halcyon Goods,38991,22,Current,open
+INV-5051,CL-033,Halcyon Goods,28912,47,31-60,open
+INV-5052,CL-033,Halcyon Goods,22902,15,Current,open
+INV-5053,CL-034,Ridgeway Brands,32872,58,31-60,open
+INV-5054,CL-034,Ridgeway Brands,19172,8,Current,open
+INV-5055,CL-035,Beacon Goods,26666,22,Current,open
+INV-5056,CL-036,Thornwood Manufacturing,33878,33,31-60,open
+INV-5057,CL-036,Thornwood Manufacturing,17780,58,31-60,open
+INV-4821,CL-008,Meridian Apparel,128400,274,>90,DISPUTED / collections
+CR-2026-002,CL-002,Helix Foods,-14700,5,Current,SLA service credit

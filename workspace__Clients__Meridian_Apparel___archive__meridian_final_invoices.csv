@@ -1,0 +1,6 @@
+invoice,date,amount_usd,status
+INV-4102,2025-05-31,41200,UNPAID / disputed
+INV-4155,2025-06-15,38600,UNPAID / disputed
+INV-4188,2025-06-30,27400,UNPAID / disputed
+INV-4201,2025-07-05,21200,UNPAID / disputed
+TOTAL,,128400,in collections (>90d)
