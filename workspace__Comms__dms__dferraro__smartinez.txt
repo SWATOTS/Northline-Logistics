@@ -1,0 +1,6 @@
+# DM: @smartinez ↔ @dferraro
+
+[2026-03-17 10:31] @smartinez: For the Helix QBR — how do the Q1 cold-chain misses break down, warehouse vs carrier?
+[2026-03-17 10:44] @dferraro: 3 missed weeks total. 2 of them were our reefer dock backup here at CMH. 1 was ColdGuard reefer arriving late.
+[2026-03-17 10:46] @smartinez: Perfect, that matches the dock utilization report. Using that for root cause.
+[2026-03-19 08:12] @dferraro: Also — if Sales tries to add another cold-chain account, we do NOT have reefer capacity right now. Same docks.

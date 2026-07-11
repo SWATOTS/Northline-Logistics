@@ -1,0 +1,6 @@
+# Slack #client-aurora  (exported 2026-03-31)
+
+[2026-01-19 08:35] @smartinez: Aurora weekly ops looking healthy — tracking above their 96% target so far this quarter.
+[2026-03-14 10:10] @bfeldman: Aurora asked for the Q1 QBR agenda — peak readiness + North Texas last-mile expansion. Building the deck.
+    ↳ [2026-03-14 10:18] @smartinez: I'll bring the OTD slide. We closed Q1 at 96.4% vs their 96% target, so it's a good story.
+[2026-03-25 09:00] @bfeldman: Reminder: Aurora is a DFW-served account (came up because an old note had them under Columbus).
