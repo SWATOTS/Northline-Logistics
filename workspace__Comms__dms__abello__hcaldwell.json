@@ -1,0 +1,25 @@
+{
+  "type": "dm",
+  "participants": [
+    "abello",
+    "hcaldwell"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2026-01-22 16:00",
+      "user": "abello",
+      "text": "Draft board pack is up (Rev 1). Churn figure is preliminary \u2014 I haven't fully booked the Meridian partial-year exit yet."
+    },
+    {
+      "ts": "2026-02-09 09:30",
+      "user": "abello",
+      "text": "Updated for the final: churn is larger once Meridian is reflected. Numbers now tie to the revenue bridge workbook."
+    },
+    {
+      "ts": "2026-02-10 10:15",
+      "user": "hcaldwell",
+      "text": "Good. Board approved the final. Make sure nobody circulates the old draft."
+    }
+  ]
+}

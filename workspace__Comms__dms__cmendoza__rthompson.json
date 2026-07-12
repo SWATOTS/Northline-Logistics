@@ -1,0 +1,30 @@
+{
+  "type": "dm",
+  "participants": [
+    "cmendoza",
+    "rthompson"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-11-05 12:27",
+      "user": "cmendoza",
+      "text": "sorry to bug you birthday cake in the kitchen \ud83c\udf82"
+    },
+    {
+      "ts": "2025-12-11 15:03",
+      "user": "rthompson",
+      "text": "did the numbers look right to you?"
+    },
+    {
+      "ts": "2025-12-17 08:06",
+      "user": "cmendoza",
+      "text": "how was the weekend?"
+    },
+    {
+      "ts": "2025-12-21 13:51",
+      "user": "rthompson",
+      "text": "who's on shift Friday?"
+    }
+  ]
+}

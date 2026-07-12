@@ -1,0 +1,30 @@
+{
+  "type": "dm",
+  "participants": [
+    "dferraro",
+    "tbrooks"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-10-09 14:23",
+      "user": "tbrooks",
+      "text": "birthday cake in the kitchen \ud83c\udf82"
+    },
+    {
+      "ts": "2025-10-19 14:52",
+      "user": "dferraro",
+      "text": "did you catch the game? \ud83c\udfc0"
+    },
+    {
+      "ts": "2025-10-26 12:56",
+      "user": "dferraro",
+      "text": "quick one when you're free can you cover the warehouse standup tomorrow?"
+    },
+    {
+      "ts": "2025-11-25 14:56",
+      "user": "tbrooks",
+      "text": "are you at the offsite?"
+    }
+  ]
+}

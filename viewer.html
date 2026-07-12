@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Document viewer</title><style>
+:root{--ink:#1c2330;--muted:#6b7280;--line:#e6e9ef;--accent:#2f5bd6;--chip:#eef2fb;--code:#f4f6fb}
+*{box-sizing:border-box}body{margin:0;font:15px/1.55 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#f4f6f9}
+.hd{position:sticky;top:0;background:#243a6b;color:#fff;padding:12px 20px;display:flex;gap:12px;align-items:center}
+.hd .fn{font-weight:700;font-size:15px;word-break:break-all}.hd a{margin-left:auto;color:#cdd8ee;font-size:13px;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:6px 10px;text-decoration:none}
+.stabbar{display:flex;gap:6px;margin:0 0 12px;flex-wrap:wrap}
+.stab{border:1px solid #d7dbe4;background:#fff;color:#1c2330;border-radius:999px;padding:6px 13px;font-size:13px;font-weight:600;cursor:pointer}
+.stab.act{background:#2f5bd6;color:#fff;border-color:#2f5bd6}
+.wrap{max-width:1080px;margin:0 auto;padding:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--code);border:1px solid var(--line);border-radius:8px;padding:14px;font:12.5px/1.55 ui-monospace,Menlo,monospace}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{border:1px solid var(--line);padding:6px 9px;text-align:left}th{background:var(--chip)}
+img{max-width:100%;border:1px solid var(--line);border-radius:8px}iframe{width:100%;height:82vh;border:1px solid var(--line);border-radius:8px}
+h1{font-size:20px}h2{font-size:16px}h3{font-size:14px}.muted{color:var(--muted)}
+.note{background:#fff8e6;border:1px solid #f0e0b0;border-radius:8px;padding:12px;color:#7a5b00}
+.jk{color:#7c3aed}.js{color:#166534}.jn{color:#b45309}.jb{color:#0369a1}
+</style></head><body>
+<div class="hd"><span class="fn" id="fn">Document</span><a id="dl" download>Download original ↓</a></div>
+<div class="wrap"><div class="card" id="body">Loading…</div></div>
+<script>
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function ext(p){return (p.split('.').pop()||'').toLowerCase();}
+function mdToHtml(src){var L=src.split('\n'),o=[],ul=false,tb=false;
+ var il=function(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/`(.+?)`/g,'<code>$1</code>');};
+ for(var i=0;i<L.length;i++){var ln=L[i];
+  if(/^\|(.+)\|\s*$/.test(ln)){var c=ln.trim().replace(/^\||\|$/g,'').split('|').map(function(x){return x.trim();});
+   if(c.join('').replace(/[-: ]/g,'')===''){continue;}if(!tb){o.push('<table>');tb=true;}o.push('<tr>'+c.map(function(x){return '<td>'+il(x)+'</td>';}).join('')+'</tr>');continue;}
+  else if(tb){o.push('</table>');tb=false;}
+  if(/^### /.test(ln))o.push('<h3>'+il(ln.slice(4))+'</h3>');else if(/^## /.test(ln))o.push('<h2>'+il(ln.slice(3))+'</h2>');else if(/^# /.test(ln))o.push('<h1>'+il(ln.slice(2))+'</h1>');
+  else if(/^[-*] /.test(ln)){if(!ul){o.push('<ul>');ul=true;}o.push('<li>'+il(ln.slice(2))+'</li>');}else{if(ul){o.push('</ul>');ul=false;}if(ln.trim())o.push('<p>'+il(ln)+'</p>');}}
+ if(ul)o.push('</ul>');if(tb)o.push('</table>');return o.join('');}
+function jsonHi(o){var s=esc(JSON.stringify(o,null,2));
+ s=s.replace(/("(?:\\.|[^"\\])*")(\s*:)/g,'<span class="jk">$1</span>$2').replace(/:\s("(?:\\.|[^"\\])*")/g,': <span class="js">$1</span>').replace(/([:\[,]\s*)(-?\d+\.?\d*)/g,'$1<span class="jn">$2</span>').replace(/([:\[,]\s*)(true|false|null)/g,'$1<span class="jb">$2</span>');return '<pre>'+s+'</pre>';}
+function csvParse(t){var rows=[],i=0,f='',row=[],q=false;while(i<t.length){var c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){f+='"';i++;}else q=false;}else f+=c;}else{if(c==='"')q=true;else if(c===','){row.push(f);f='';}else if(c==='\n'||c==='\r'){if(c==='\r'&&t[i+1]==='\n')i++;row.push(f);rows.push(row);row=[];f='';}else f+=c;}i++;}if(f.length||row.length){row.push(f);rows.push(row);}return rows;}
+function tbl_(rws){rws=rws.filter(function(r){return r.some(function(x){return x.trim()!=='';});});if(!rws.length)return '<p class="muted">(empty)</p>';var head='<tr>'+rws[0].map(function(h){return '<th>'+esc(h)+'</th>';}).join('')+'</tr>';var body=rws.slice(1).map(function(r){return '<tr>'+r.map(function(c){return '<td>'+esc(c)+'</td>';}).join('')+'</tr>';}).join('');return '<div style="overflow:auto"><table>'+head+body+'</table></div><p class="muted">'+(rws.length-1)+' rows</p>';}
+function sheetSwitch(btn,i){var w=btn.closest('.sheets');w.querySelectorAll('.sheetpane').forEach(function(p){p.style.display=(+p.getAttribute('data-i')===i)?'':'none';});w.querySelectorAll('.stab').forEach(function(b){b.classList.toggle('act',+b.getAttribute('data-i')===i);});}
+function csvTable(t){var rows=csvParse(t),sheets=[],cur=null;rows.forEach(function(r){var m=(r[0]||'').trim().match(/^=== Sheet: (.*?) ===$/);if(m){cur={name:m[1],rows:[]};sheets.push(cur);}else{if(!cur){cur={name:'Sheet 1',rows:[]};sheets.push(cur);}cur.rows.push(r);}});if(sheets.length<=1)return tbl_(sheets.length?sheets[0].rows:[]);var bar=sheets.map(function(s,i){return '<button class="stab'+(i===0?' act':'')+'" data-i="'+i+'" onclick="sheetSwitch(this,'+i+')">'+esc(s.name)+'</button>';}).join('');var panes=sheets.map(function(s,i){return '<div class="sheetpane" data-i="'+i+'" style="'+(i?'display:none':'')+'">'+tbl_(s.rows)+'</div>';}).join('');return '<div class="sheets"><div class="stabbar">'+bar+'</div>'+panes+'</div>';}
+(function(){var q=new URLSearchParams(location.search),f=q.get('f')||'',n=q.get('n')||f;
+ document.title=n+' — viewer';document.getElementById('fn').textContent=n;var dl=document.getElementById('dl');dl.href=f;dl.setAttribute('download','');
+ var b=document.getElementById('body'),e=ext(f);
+ if(['png','jpg','jpeg','gif','webp','svg'].indexOf(e)>=0){b.innerHTML='<img src="'+f+'">';return;}
+ if(e==='pdf'){b.innerHTML='<iframe src="'+f+'"></iframe>';return;}
+ if(e==='docx'||e==='xlsx'){b.innerHTML='<div class="note">This is an Office document (.'+e+') that can\'t be rendered inline. Use “Download original”.</div>';return;}
+ fetch(f).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();}).then(function(txt){
+  if(e==='md')b.innerHTML=mdToHtml(txt);else if(e==='json'){try{b.innerHTML=jsonHi(JSON.parse(txt));}catch(x){b.innerHTML='<pre>'+esc(txt)+'</pre>';}}
+  else if(e==='csv')b.innerHTML=csvTable(txt);else b.innerHTML='<pre>'+esc(txt)+'</pre>';
+ }).catch(function(x){b.innerHTML='<div class="note">Could not load this file. It must be served over http(s) (e.g. GitHub Pages). Use “Download original”.</div>';});
+})();
+</script></body></html>

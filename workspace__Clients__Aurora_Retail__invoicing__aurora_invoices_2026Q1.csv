@@ -1,0 +1,4 @@
+invoice,month,amount_usd,status
+INV-A202601,2026-01,142000,paid
+INV-A202602,2026-02,142000,paid
+INV-A202603,2026-03,142000,paid

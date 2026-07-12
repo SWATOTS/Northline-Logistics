@@ -1,0 +1,5 @@
+lane,mode,deliveries,on_time,otd_pct
+CMH->Chicago,reefer,320,299,93.4
+CMH->Detroit,reefer,210,199,94.8
+CMH->Indianapolis,reefer,180,169,93.9
+CMH->Cleveland,reefer,160,154,96.2

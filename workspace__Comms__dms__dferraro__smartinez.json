@@ -1,0 +1,30 @@
+{
+  "type": "dm",
+  "participants": [
+    "smartinez",
+    "dferraro"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2026-03-17 10:31",
+      "user": "smartinez",
+      "text": "For the Helix QBR \u2014 how do the Q1 cold-chain misses break down, warehouse vs carrier?"
+    },
+    {
+      "ts": "2026-03-17 10:44",
+      "user": "dferraro",
+      "text": "3 missed weeks total. 2 of them were our reefer dock backup here at CMH. 1 was ColdGuard reefer arriving late."
+    },
+    {
+      "ts": "2026-03-17 10:46",
+      "user": "smartinez",
+      "text": "Perfect, that matches the dock utilization report. Using that for root cause."
+    },
+    {
+      "ts": "2026-03-19 08:12",
+      "user": "dferraro",
+      "text": "Also \u2014 if Sales tries to add another cold-chain account, we do NOT have reefer capacity right now. Same docks."
+    }
+  ]
+}

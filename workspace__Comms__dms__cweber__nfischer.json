@@ -1,0 +1,25 @@
+{
+  "type": "dm",
+  "participants": [
+    "nfischer",
+    "cweber"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-10-08 12:03",
+      "user": "cweber",
+      "text": "birthday cake in the kitchen \ud83c\udf82"
+    },
+    {
+      "ts": "2025-10-18 14:45",
+      "user": "nfischer",
+      "text": "thanks for the help earlier \ud83d\ude4f"
+    },
+    {
+      "ts": "2025-10-20 15:11",
+      "user": "nfischer",
+      "text": "who's on shift Friday?"
+    }
+  ]
+}
