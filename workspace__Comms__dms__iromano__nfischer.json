@@ -1,0 +1,20 @@
+{
+  "type": "dm",
+  "participants": [
+    "nfischer",
+    "iromano"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2026-03-06 10:45",
+      "user": "nfischer",
+      "text": "For the Nimbus staffing ask \u2014 make sure you use the current Q1 roster. The archived one still shows people who've left."
+    },
+    {
+      "ts": "2026-03-06 10:52",
+      "user": "iromano",
+      "text": "Yep. True active headcount is 25. The old snapshot lists 28 because it never got cleaned up after the departures."
+    }
+  ]
+}

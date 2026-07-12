@@ -1,0 +1,20 @@
+{
+  "type": "dm",
+  "participants": [
+    "jblake",
+    "therrera"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2026-01-10 09:00",
+      "user": "jblake",
+      "text": "Hi Tom\u00e1s! Where do I log call notes?"
+    },
+    {
+      "ts": "2026-01-10 09:05",
+      "user": "therrera",
+      "text": "In PipelineCRM under the account. Ping me anytime \ud83d\ude0a"
+    }
+  ]
+}

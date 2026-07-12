@@ -1,0 +1,74 @@
+{
+  "channel": "#finance",
+  "exported": "2026-03-31",
+  "members": [
+    "abello",
+    "hcaldwell",
+    "lpatterson",
+    "mtanaka",
+    "smartinez"
+  ],
+  "messages": [
+    {
+      "ts": "2025-09-04 10:15",
+      "user": "abello",
+      "text": "Booked the Sterling Grocery churn into the FY2025 revenue bridge \u2014 they offboarded 2025-08-31, so it's a partial-year hit to the churn line.",
+      "replies": [
+        [
+          "2025-09-04 10:22",
+          "hcaldwell",
+          "Thanks. Keep Sterling and Meridian separate in the churn detail so the board can see each."
+        ]
+      ]
+    },
+    {
+      "ts": "2025-10-01 13:54",
+      "user": "abello",
+      "text": "Monthly MRR report is up."
+    },
+    {
+      "ts": "2026-02-05 09:00",
+      "user": "lpatterson",
+      "text": "Reminder: code your credit card expenses by Friday or I hunt you down (kindly)."
+    },
+    {
+      "ts": "2026-02-18 11:00",
+      "user": "mtanaka",
+      "text": "Meridian still hasn't paid the final invoices. This is well past 90 days now. Moving to collections status.",
+      "replies": [
+        [
+          "2026-02-18 11:15",
+          "hcaldwell",
+          "Keep it out of FY2025 revenue \u2014 it's disputed AR, not income. Flag it clearly in the aging."
+        ],
+        [
+          "2026-02-18 11:19",
+          "abello",
+          "Noted. It'll show in AR aging >90d. I'll make sure the board pack doesn't book it as revenue."
+        ]
+      ]
+    },
+    {
+      "ts": "2026-03-23 14:05",
+      "user": "abello",
+      "text": "Delivery, once you confirm the Helix shortfall in points I'll compute the credit off the SOW schedule and post it to AR.",
+      "replies": [
+        [
+          "2026-03-23 14:20",
+          "smartinez",
+          "Shortfall is 2.9 points under the 98% SLA."
+        ],
+        [
+          "2026-03-23 15:01",
+          "abello",
+          "Thanks \u2014 running it through the $5k/point schedule now. Will post as a credit memo."
+        ]
+      ]
+    },
+    {
+      "ts": "2026-03-25 12:41",
+      "user": "mtanaka",
+      "text": "AP run Thursday \u2014 submit invoices by Wed EOD."
+    }
+  ]
+}

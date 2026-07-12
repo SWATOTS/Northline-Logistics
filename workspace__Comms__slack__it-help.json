@@ -1,0 +1,62 @@
+{
+  "channel": "#it-help",
+  "exported": "2026-03-31",
+  "members": [
+    "achen",
+    "cweber",
+    "ezhang",
+    "mtanaka",
+    "rmalhotra",
+    "rthompson"
+  ],
+  "messages": [
+    {
+      "ts": "2026-01-05 09:00",
+      "user": "achen",
+      "text": "Can't log into PipelineCRM \u2014 password reset not arriving?",
+      "replies": [
+        [
+          "2026-01-14 09:15",
+          "rmalhotra",
+          "Reset sent manually, try now."
+        ]
+      ]
+    },
+    {
+      "ts": "2026-01-11 09:22",
+      "user": "rthompson",
+      "text": "New badge not opening the CMH side door.",
+      "replies": [
+        [
+          "2026-01-22 07:50",
+          "rmalhotra",
+          "Reprovisioned, try again."
+        ]
+      ]
+    },
+    {
+      "ts": "2026-02-08 09:11",
+      "user": "mtanaka",
+      "text": "Quicksheet export is timing out on large reports.",
+      "replies": [
+        [
+          "2026-02-03 10:02",
+          "cweber",
+          "Known issue, use the date filter for now. Fix next sprint."
+        ]
+      ]
+    },
+    {
+      "ts": "2026-02-14 09:33",
+      "user": "ezhang",
+      "text": "VPN drops from Reno every evening.",
+      "replies": [
+        [
+          "2026-02-11 19:30",
+          "rmalhotra",
+          "Looking into the Reno tunnel \u2014 added to Sat maintenance."
+        ]
+      ]
+    }
+  ]
+}

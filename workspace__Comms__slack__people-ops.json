@@ -1,0 +1,48 @@
+{
+  "channel": "#people-ops",
+  "exported": "2026-03-31",
+  "members": [
+    "cmendoza",
+    "iromano",
+    "nfischer"
+  ],
+  "messages": [
+    {
+      "ts": "2025-11-04 14:07",
+      "user": "iromano",
+      "text": "Welcome to our newest team members this quarter! \ud83d\udc4b"
+    },
+    {
+      "ts": "2025-12-07 15:20",
+      "user": "nfischer",
+      "text": "Manager 1:1 templates refreshed."
+    },
+    {
+      "ts": "2026-01-12 09:00",
+      "user": "iromano",
+      "text": "Onboarding buddy sign-ups open for Q1 new hires \ud83d\ude4c"
+    },
+    {
+      "ts": "2026-02-20 09:00",
+      "user": "nfischer",
+      "text": "PIP policy v2 refresher for managers attached in HR/policies."
+    },
+    {
+      "ts": "2026-03-06 10:05",
+      "user": "cmendoza",
+      "text": "@ncfischer we need 1 added shift lead at DFW to support Nimbus go-live in April. Can we pull from bench or do we hire?",
+      "replies": [
+        [
+          "2026-03-06 10:22",
+          "nfischer",
+          "Let me check the capacity planner and current roster. Isabella will pull availability."
+        ],
+        [
+          "2026-03-06 10:40",
+          "iromano",
+          "On it \u2014 cross-checking the current roster (not the older snapshot) for who's actually available."
+        ]
+      ]
+    }
+  ]
+}

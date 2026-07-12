@@ -1,0 +1,25 @@
+{
+  "type": "dm",
+  "participants": [
+    "rkim",
+    "gokafor"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-10-24 14:30",
+      "user": "rkim",
+      "text": "ping when you can can you approve that when you get a chance?"
+    },
+    {
+      "ts": "2025-11-26 08:14",
+      "user": "gokafor",
+      "text": "how was the weekend?"
+    },
+    {
+      "ts": "2025-11-27 09:16",
+      "user": "rkim",
+      "text": "can you approve that when you get a chance?"
+    }
+  ]
+}

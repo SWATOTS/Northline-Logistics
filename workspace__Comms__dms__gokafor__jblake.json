@@ -1,0 +1,25 @@
+{
+  "type": "dm",
+  "participants": [
+    "gokafor",
+    "jblake"
+  ],
+  "exported": "2026-03-31",
+  "messages": [
+    {
+      "ts": "2025-11-20 16:03",
+      "user": "gokafor",
+      "text": "sorry to bug you are you at the offsite?"
+    },
+    {
+      "ts": "2025-11-21 14:15",
+      "user": "jblake",
+      "text": "great job this week!"
+    },
+    {
+      "ts": "2025-11-22 11:09",
+      "user": "gokafor",
+      "text": "do you have the latest on the Helix account?"
+    }
+  ]
+}
