@@ -1,4 +1,0 @@
-# DM: @achen ↔ @therrera
-
-[2026-03-11 15:25] @achen: For the pipeline review on Verdant — Warehouse says Columbus reefer is maxed. And Delivery is dealing with a cold-chain SLA issue on Helix right now.
-[2026-03-11 15:31] @therrera: Then we can't responsibly commit to 97% today. Options: phase the start, or pass. Let's decide with Dominic in the room.

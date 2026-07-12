@@ -1,7 +1,0 @@
-# DM: @ogrant ↔ @rthompson
-
-[2025-10-10 11:08] @ogrant: how was the weekend?
-[2025-11-20 15:54] @ogrant: did the numbers look right to you?
-[2025-11-27 08:33] @rthompson: can you approve that when you get a chance?
-[2025-12-04 12:20] @rthompson: happy to sync if useful
-[2025-12-14 08:53] @ogrant: how was the weekend?

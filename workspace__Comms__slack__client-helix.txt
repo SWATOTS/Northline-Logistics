@@ -1,6 +1,0 @@
-# Slack #client-helix  (exported 2026-03-31)
-
-[2026-03-20 13:02] @smartinez: Helix procurement emailed about the SLA. Their note says Week 7 was the worst week. That's not what our data shows — flagging so we don't repeat their number back to them.
-    ↳ [2026-03-20 13:10] @bfeldman: Good catch. Want me to loop in on the QBR call?
-    ↳ [2026-03-20 13:14] @smartinez: Yes please. I'll bring the corrected weekly chart.
-[2026-03-27 09:30] @smartinez: QBR scheduled for next week. Bringing OTD dashboard + credit memo.

@@ -1,6 +1,0 @@
-Metric,Value,Note
-Current avg throughput (u/hr),388,from dfw_throughput_log
-Peak sustainable (u/hr),430,design capacity
-Headroom (u/hr),42,before Nimbus
-Nimbus est. added (u/hr),55,at go-live volume
-Verdict,TIGHT,Nimbus exceeds current headroom by ~13 u/hr; needs 1 added shift lead
